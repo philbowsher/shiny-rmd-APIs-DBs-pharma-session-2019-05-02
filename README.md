@@ -68,7 +68,7 @@ Presentations and code from workshop.
 Requires the following packages from CRAN:
 
 ```r
-install.packages(c("leaflet", "shiny", "shinydashboard", "rmarkdown", "flex_dashboard", "ggplot2", "plotly", "plyr", "reshape2"))
+install.packages(c("leaflet", "shiny", "shinydashboard", "rmarkdown", "flexdashboard", "ggplot2", "plotly", "tidyverse"))
 ``` 
 
 To access to the OpenFDA API from R, which uses the jsonlite and magrittr packages, you'll need the devtools package to install it as the library has not yet been added to CRAN, so follow these steps:
